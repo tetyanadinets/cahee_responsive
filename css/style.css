@@ -36,12 +36,26 @@ body{
 
 }
 
+.ba-buterbrod{
+	display: none;
+
+}
+
 .ba-header__menu{
 	list-style: none;
 	text-align: right;
 	margin: 0;
 	padding: 7px 0;
+
+
+
 }
+
+.ba-buterbrod{
+	display: none;
+}
+
+
 
 .ba-header__menu-item{
 	display: inline-block;
@@ -55,7 +69,7 @@ body{
 .ba-header__menu-link{
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 60px;
 	text-transform: uppercase;
 	display: inline-block;
 	text-decoration: none;

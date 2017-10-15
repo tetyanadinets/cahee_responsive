@@ -43,6 +43,9 @@
 		padding-top: 20px;
 		font-size: 40px;
 	}
+		.ba-subscribe__input{
+		max-width: 100%;
+	}
 	.ba-subscribe__button{
 		width: 100%;
 		margin-top: 15px;
@@ -75,8 +78,72 @@
 	    .ba-small-text-center{
         text-align: center;
     }
+
+
+    /*menu*/
+
+    .ba-header__menu{
+		padding-top: 80px;
+
+    	position: fixed;
+		z-index: 11;
+		top: -100%;
+		bottom: 100%;
+		right: 0;
+		left: 0;
+		text-align: center;
+
+	background-color: rgba(0, 0, 0, .85);
+	-webkit-transition: all ease .5s;
+	   -moz-transition: all ease .5s;
+	    -ms-transition: all ease .5s;
+	     -o-transition: all ease .5s;
+	        transition: all ease .5s;
+    }
+    .ba-header__menu-item{
+    	display: block;
+    	padding-left: 0;
+    }
+    .ba-header__menu-link{
+    	font-size: 30px;
+    	color: #FFF;
+
+    }
+    .ba-header__mobile-overlay{
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	height: 72px;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0, .9);
+	display: none;
+}
+    .ba-buterbrod{
+    	display: inline-block;
+    	width: 60px;
+		position: fixed;
+		z-index: 13;
+		height: 32px;
+		top: 20px;
+		right: 20px;
+		background: url(../img/burgerbutton.png) 50% no-repeat;
+		-webkit-background-size: contain;
+		     -o-background-size: contain;
+		        background-size: contain;
+
+    }
+    .ba-logo{
+    	padding-top: 35px;
+    }
+    .ba-header{
+    	padding-top: 0;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 959px){
+	.ba-header__menu-link{
+		font-size: 14px;
+	}
 	.ba-second-page__content{
 		margin: 40px 0 0;
 		padding-right: 15px;
@@ -84,10 +151,7 @@
 		.ba-second-page__h2{
 			margin: 40px 0 35px;
 			font-size: 60px;
-	}
-	.ba-second-page__container img{
-
-	}
+}
 	.ba-gallery__h2{
 		padding-top: 40px;
 		font-size: 60px;
@@ -95,6 +159,20 @@
 	.ba-third-page__h2{
 		padding-top: 60px;
 	}
+		.ba-subscribe__button{
+		width: 100%;
+		margin-top: 15px;
+		margin: 30px 0;
+	}
+	.ba-subscribe__input{
+		max-width: 100%;
+	}
+		.ba-blog__button{
+		margin: 30px 0;
+	}
+
+
+
 }
 @media screen and (min-width: 960px) and (max-width: 1199px){
 			.ba-second-page__content{
